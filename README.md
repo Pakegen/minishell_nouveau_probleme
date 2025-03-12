@@ -1,7 +1,8 @@
 # minishell_nouveau_probleme
 
 # probleme avec echo qui prends tous ce qui est apres lui en chaine de caractere voir ou est le probleme
-## probleme de token malloc et e execv : "==170880== Syscall param execve(filename) points to unaddressable byte(s)
+## probleme de token malloc et et avec execv :
+"==170880== Syscall param execve(filename) points to unaddressable byte(s)
 ==170880==    at 0x49B208B: execve (syscall-template.S:120)
 ==170880==    by 0x40503C: child_execute (in /home/quenalla/42/cercle_3/minishell/minishell_95%/minishell)
 ==170880==    by 0x404E5D: handle_fork_and_update (in /home/quenalla/42/cercle_3/minishell/minishell_95%/minishell)
@@ -51,4 +52,4 @@ execve: Bad address
 
 
 
-##signal finie vraiment finie 
+# signal finie vraiment finie 
